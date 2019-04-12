@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <!--平移-->
+    <translate
+        android:duration= "4000"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="100"
+        android:toYDelta="100" />
+
+    <!--透明度-->
+    <alpha
+        android:duration= "4000"
+        android:fromAlpha="0"
+        android:toAlpha="1"/>
+
+    <!--旋转-->
+    <rotate
+        android:duration= "4000"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:repeatMode="reverse"
+        android:repeatCount="5"
+        />
+
+    <!--缩放-->
+    <scale
+        android:duration= "4000"
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:toXScale="1.2"
+        android:toYScale="1.2"
+        />
+
+
+</set>
